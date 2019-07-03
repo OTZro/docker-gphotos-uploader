@@ -8,7 +8,7 @@ RUN \
     apk add --no-cache --virtual build-dependencies \
         g++ \
         git && \
-    git clone https://github.com/rfgamaral/gphotos-uploader-cli.git --branch docker && \
+    git clone https://github.com/otzro/gphotos-uploader-cli.git --branch docker && \
     git clone https://github.com/rfgamaral/oauth2-noserver.git --branch docker && \
     git clone https://github.com/rfgamaral/google-photos-api-client-go.git --branch docker && \
     cd gphotos-uploader-cli && \
